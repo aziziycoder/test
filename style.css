@@ -1,0 +1,23 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --bg-color: hsl(155 30% 12%);
+}
+
+.container {
+  background-color: var(--bg-color);
+  height: 100vh;
+}
+.container .about {
+  background-color: aqua;
+}
+.container .about .left h1 {
+  color: var(--bg-color);
+}
+.container .about .left h1:hover {
+  color: black;
+}/*# sourceMappingURL=style.css.map */
